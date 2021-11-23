@@ -93,11 +93,8 @@ line-height: 110%;
     width: 176px;
 }
 .card_photo {
-    height: 235px;
-    width: 176px;
+    width: 100%;
     border-radius: 5px;
-    object-fit: cover;
-    background-color: blue;
 }
 
 .card_photo_badge {

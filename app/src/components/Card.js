@@ -1,10 +1,11 @@
 
-export default function Card(){
+export default function Card(experience){
+    console.log(experience.status);
     return(
         <div className="card">
             <div className="card_top">
-                <img className="card_photo" src="katie-zaferes.png" alt=""/>
-                <div className="card_photo_badge">SOLD OUT</div>
+                <img className="card_photo" src="./experiences/katie-zaferes.png" alt=""/>
+                <div className="card_photo_badge">{experience.status}</div>
             </div>
             <div className="card_bottom">
                 <div className="card_rating">
