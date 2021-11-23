@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_container {
+    width: 550px;
+    height: 853px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.navbar {
+    height: 70px;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+
+}
+
+.hero {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_container {
+    height: calc(853px - 470px);
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 82px;
+    margin-left: 30px;
+}
+
+.hero_img {
+    width: 395px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.hero_desc {
+    margin-left: -110px;
+}
+
+.hero_title {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+}
+
+.hero_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    max-width: 320px;
+}
+
+.card {
+    width: 176px;
+    height: 302px;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card_top {
+    height: 235px;
+    width: 176px;
+}
+.card_photo {
+    height: 235px;
+    width: 176px;
+    border-radius: 5px;
+    object-fit: cover;
+    background-color: blue;
+}
+
+.card_photo_badge {
+    width: 61px;
+    height: 20px;
+    background-color: #FFFFFF;
+    color: #222222;
+    position: relative;
+    left: 10px;
+    top: -230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10.24px;
+    font-family: Poppins;
+    line-height: 110%;
+} 
+
+.card_bottom {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.card_rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.rating_star {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+} 
+
+.card_description {
+    margin-top: -5px;
+} 
+
+.card_price {
+    margin-top: -5px;
+} 
+
+.price {
+    font-weight: 600;
+}
+
+.country {
+    color: #918E9B;  
+}
