@@ -147,10 +147,10 @@ line-height: 110%;
     margin-top: -5px;
 } 
 
-.price {
+.bold {
     font-weight: 600;
 }
 
-.country {
+.grey {
     color: #918E9B;  
 }

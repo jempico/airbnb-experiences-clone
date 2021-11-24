@@ -1,8 +1,5 @@
 
-export default function Card({picture, status}){
-    console.log(picture);
-    console.log(status);
-
+export default function Card({picture, status, rating, reviews, country, title, price}){
     return(
         <div className="card">
             <div className="card_top">
@@ -12,10 +9,10 @@ export default function Card({picture, status}){
             <div className="card_bottom">
                 <div className="card_rating">
                     <img className="rating_star" src="star.png" alt=""/>
-                    <p className="rating_title">5.0 <span className="country">(6) · USA</span></p>
+                    <p className="rating_title">{rating} <span className="grey">({reviews}) · </span><span className="grey">{country}</span></p>
                 </div>
-                <p className="card_description">Life lessons with Katie Zaferes</p>
-                <p className="card_price"><span className="price">From $136</span> / person</p>
+                <p className="card_description">{title}</p>
+                <p className="card_price"><span className="bold">From ${price}</span> / person</p>
             </div>
 
         </div>
