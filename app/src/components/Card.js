@@ -1,10 +1,17 @@
 
-export default function Card({picture, status, rating, reviews, country, title, price}){
+export default function Card({picture, openSpots, rating, reviews, country, title, price, online}){
+    let status_badge;
+    if (openSpots === 0) { 
+        status_badge = "SOLD OUT"
+    } else if (online) {
+        status_badge = "ONLINE"
+    } 
+    
     return(
         <div className="card">
             <div className="card_top">
                 <img className="card_photo" src={picture} alt=""/>
-                <div className="card_photo_badge">{status}</div>
+               {status_badge && <div className="card_photo_badge">{status_badge}</div>}
             </div>
             <div className="card_bottom">
                 <div className="card_rating">
