@@ -6,17 +6,12 @@ export const Experiences = [
     },
     {
         id: 2,
-        picture: "experiences/katie-zaferes.png",
-        status: 'SOLD OUT'
+        picture: "experiences/bike.jpeg",
+        status: 'ONLINE'
     },
     {
         id: 3,
-        picture: "experiences/katie-zaferes.png",
+        picture: "experiences/wedding.jpeg",
         status: 'SOLD OUT'
     },
-    {
-        id: 4,
-        picture: "experiences/katie-zaferes.png",
-        status: 'SOLD OUT'
-    }
 ] 

@@ -12,10 +12,7 @@ export default function App() {
             <Navbar/>
             <Hero/>
             <section className="card_container">
-                {Experiences.map(e => <Card key={e.id} experience={e}/> )}
-            
-            <Card/>
-            <Card/>
+                {Experiences.map( (experience) => (<Card key={experience.id} {...experience}/> ))}
         </section>
             
         </div>
