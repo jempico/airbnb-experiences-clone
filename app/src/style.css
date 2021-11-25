@@ -34,12 +34,23 @@ body {
 
 .card_container {
     height: calc(853px - 470px);
-    width: 100vh;
+    width: 450px;
     display: flex;
     align-items: center;
     margin-left: 45px;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.card_container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card_container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .navbar {
     display: flex;
